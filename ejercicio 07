@@ -1,0 +1,10 @@
+//crear un algoritmo que convierte el peso de libras a kilogramos y gramos
+Algoritmo ejercicio_07
+	definir libras , kilos , gramos como real
+	Escribir "ingrese el valor de la libras"
+	leer libras
+	kilos=libras /2
+	gramos=libras*500
+	escribir ConvertirATexto(libras) +"1b equivalen a" + ConvertirATexto(kilos) + "kg"
+	Escribir ConvertirATexto(libras) +"1b equivalen a" + ConvertirATexto(gramos) + "gr"
+FinAlgoritmo
