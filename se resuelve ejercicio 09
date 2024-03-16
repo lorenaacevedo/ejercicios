@@ -1,0 +1,15 @@
+//crear un algoritmo que calcule la definitiva total de una asignatura FESC 
+//debe ingresar primer previo, segundo previo, tercera nota,evaluacion final
+Algoritmo ejercicio_09
+	Escribir "ingresar nota del primer previo"
+	leer primerprevio
+	Escribir "ingrese la nota del segundo previo"
+	leer segundoprevio
+	escribir "ingrese la tercera nota"
+	leer terceranota
+	escribir "ingrese la nota de la evaluacion final"
+	leer evaluacionfinal
+	escribir "su nota definitiva total es:"
+	Escribir ConvertirAnumero(primerprevio) + (segundoprevio) + (terceranota) + (evaluacionfinal)/4
+	
+	
