@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabajo</title>
+    <style>
+        h1,p {
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <h1>Travel reservation form</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <H2>* Denotes mandotory</H2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Full Name*:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="tex" Placeholder="FirstName LastName" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email address*: </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input  type="tex" placeholder="EMAIL_ADDRESS" > 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Select your package*:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                        <option>goa</option>
+                        <option>opcion 1</option>
+                        <option>opcion 2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Arrival date*:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input  type="tex" placeholder="m/d/y" > 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Number of persons*:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input  type="tex" placeholder="UNKNOWN_TYPE" > 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> What would you want to avail?*</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Boarding</label>
+                    <input  type="checkbox"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Fooding</label>
+                    <input  type="checkbox"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Sight seeing</label>
+                    <input  type="checkbox"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Discout coupon code:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input  type="tex" placeholder="UNKNOWN_TYPE" > 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label> Terms and conditions*</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input  type="radio" name= "radio1" > 
+                    <label>I agree</label>
+                    <input  type="radio" name= "radio1" >
+                    <label>I desagree</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>complete reservation</button>
+                </td>
+            </tr>
+    
+    
+        </table>
+    </center>
+</body>
+</html>
