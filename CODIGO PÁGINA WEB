@@ -1,0 +1,357 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    img {
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+    }
+  </style>
+
+<body>
+  <img src="imagenes/logoo.jpg" style="width: 100; height: 100px; ">
+</body>
+
+
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  header {
+    text-align: center;
+    padding: 150px 0;
+    background-image: url("imagenes/PSICOCO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .menu a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    cursor: pointer;
+    color: #333;
+  }
+
+  section {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  #inicio,
+  #menu-inicio {
+    display: block;
+    background-image: url("imagenes/partedearri.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  #informacion {
+    background-image: url("image/fondo\ 3");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #servicios {
+    background-image: url("image/imagenes\ servicios.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #contacto {
+    background-image: url("image/fondo\ 4");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+<script>
+  function mostrarSeccion(seccionId) {
+    var secciones = document.querySelectorAll('section');
+    secciones.forEach(function (seccion) {
+      seccion.style.display = 'none';
+    });
+    document.getElementById(seccionId).style.display = 'block';
+    document.getElementById('menu-' + seccionId).click();
+  }
+  function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    menu.style.display = (menu.style.display === 'block' ? 'none' : 'block');
+  }
+</script>
+<title>PSICONEXION</title>
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <div class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars fa-2x"></i></div>
+  <div class="menu">
+    <a href="#" id="menu-inicio" onclick="mostrarSeccion('inicio')"><i class="fas fa-home"></i> Inicio</a>
+    <a href="#" id="menu-informacion" onclick="mostrarSeccion('informacion')"><i class="fas fa-info-circle"></i>
+      Información</a>
+    <a href="#" id="menu-serviciosf" onclick="mostrarSeccion('servicios')"><i class="fas fa-concierge-bell"></i>
+      Servicios</a>
+    <a href="#" id="menu-contacto" onclick="mostrarSeccion('contacto')"><i class="fas fa-id-card"></i> Contacto</a>
+  </div>
+  <section id="inicio">
+
+    <P>
+
+    <h2>¿Qué es la psicología y en qué consiste?</h2>
+    <h4>
+      <p>
+      <h3>¡Bienvenido a nuestra página de psicología! Aquí encontrarás recursos y orientación sobre una
+        variedad de temas relacionados con la psicología.</h3>
+
+      <h4>Desde información sobre trastornos mentales y
+        emocionales hasta consejos para el bienestar emocional, nuestro objetivo es proporcionar un espacio
+        informativo y de apoyo para todos aquellos interesados en la salud mental. Explora nuestras secciones
+        para descubrir artículos, consejos prácticos y recursos útiles que te ayudarán a comprender mejor la
+        psicología y a mejorar tu bienestar emocional."</h4>
+      </p>
+      <h4>
+        <h1>CUANDO EMPIEZAN LOS PROBLEMAS DE SALUD MENTAL?</h1>
+        <img src="imagenes/mente" height="500" width="600" />
+        <h4>Los trastornos mentales pueden empezar a cualquier edad, si bien la mayoría de ellos comienzan antes de los
+          25 años, con mayor frecuencia en la infancia y adolescencia. Esta edad de comienzo de los trastornos mentales
+          coinc-ide con la etapa del neurodesarrollo y la maduración cerebral , cada ser humano es diferente y traviesa
+          por batallas distintas , asi que no te alarmes cada persona tiene su proceso y se puede ayudar a sanar.</h4>
+
+      </h4>
+      <img src="imagenes/abrazo" width="200" height="200" <H4>
+
+
+      <H3> Datos básicos sobre la psicología
+      </H3>
+
+      <h4>La psicología es el estudio del comportamiento y la mente.
+        Hay diferentes tipos de psicología, como la psicología cognitiva, forense, social y del desarrollo.
+        Una persona con una afección que influye en su salud mental puede beneficiarse de la evaluación y el
+        stratamiento con un psicólogo.
+        Un psicólogo puede ofrecer un tratamiento que se centre en las adaptaciones de la conducta.
+        Un psiquiatra es un médico que con mayor probabilidad se centrará en el tratamiento
+        médico de los problemas de salud mental La psicología es una disciplina fascinante que se encarga de estudiar la
+        mente y el comportamiento humano. Surgió como una rama de la filosofía en el siglo XVIII, y a lo largo de los
+        años ha evolucionado para comprender mejor la forma en que pensamos, sentimos y actuamos. Algunos conceptos
+        básicos sobre la psicología incluyen el estudio de la personalidad, la cognición, las emociones, el desarrollo
+        humano, la salud mental, entre otros aspectos. Si deseas profundizar en algún tema específico, ¡estaremos
+        encantados
+        de ayudarte , sigue viendo nuestra pagina !</H4>
+
+
+
+
+
+      <h4>
+  </section>
+  <section id="informacion">
+
+    <h2>Ramas de la psicología </h2>
+
+    <h4> Hay diferentes tipos de psicología que sirven para diferentes propósitos. No hay una forma fija de
+      clasificarlos, aun así,
+      hay algunos tipos comunes.
+
+      <h2> Psicología clínica</h2>
+
+      <h4>La psicología clínica integra la ciencia, la teoría y la práctica para comprender, predecir y aliviar
+        los problemas de adaptación, discapacidad e incomodidad. Promueve la adaptación, el ajuste y el
+        desarrollo personal.
+
+        Un psicólogo clínico se concentra en los aspectos intelectuales, emocionales, biológicos, psicológicos,
+        sociales y conductuales del desempeño humano a lo largo de la vida de una persona, en diferentes
+        culturas y niveles socioeconómicos.
+
+        La psicología clínica puede ayudarnos a comprender, prevenir y aliviar la angustia o disfunción por
+        causas psicológicas, y promover el bienestar y el desarrollo personal de un individuo.
+
+        La evaluación psicológica y la psicoterapia son fundamentales
+        para la práctica de la psicología clínica, pero los psicólogos
+        clínicos a menudo también participan en la investigación, la
+        capacitación, las pruebas forenses y otras áreas.</H4>
+      <img src="imagenes/mente" width="200" height="200">
+      <h2>Psicología cognitiva</h2>
+
+      <h4>La psicología cognitiva investiga los procesos mentales internos, como la resolución de problemas, la
+        memoria, el aprendizaje y el lenguaje. Analiza cómo las personas piensan, perciben, se comunican,
+        recuerdan y aprenden. Está estrechamente relacionada con la neurociencia, la filosofía y la lingüística.
+
+        Los psicólogos cognitivos analizan cómo las personas adquieren, procesan y almacenan la información.
+
+        Las aplicaciones prácticas incluyen cómo mejorar la memoria, aumentar la precisión al tomar decisiones o
+        cómo configurar programas educativos para impulsar el aprendizaje.
+
+        Psicología del desarrollo
+        Es el estudio científico de los cambios psicológicos sistemáticos que experimenta una persona a lo largo
+        de la vida, a menudo denominado desarrollo humano.
+
+        No solo se enfoca en bebés y niños pequeños sino también en adolescentes, adultos y personas mayores.
+
+        Los factores incluyen habilidades motoras, resolución de problemas, comprensión moral, adquisición del
+        lenguaje, emociones, personalidad, concepto del yo y formación de identidad.
+
+        También analiza las estructuras mentales innatas frente al aprendizaje a través de la experiencia, o
+        cómo interactúan las características de una persona con factores ambientales y cómo esto impacta el
+        desarrollo.
+
+        La psicología del desarrollo coincide con
+        campos como la lingüística.</H4>
+      <img src="imagenes/bombillo.jpg" width="200" height="200">
+      <h2>Psicología evolutiva</h2>
+
+
+      <h4> La psicología evolutiva analiza cómo el comportamiento humano, por ejemplo el lenguaje, se ha visto afectado
+        por los ajustes psicológicos durante la evolución.
+
+        Un psicólogo evolucionista cree que muchos rasgos psicológicos humanos son adaptativos, ya que nos han
+        permitido sobrevivir durante miles de años.</h4>
+
+      <h2>Psicología forense</h2>
+
+      <h4>La psicología forense consiste en aplicar la psicología a la investigación criminal y la ley.
+
+        Un psicólogo forense practica la psicología como una ciencia dentro del sistema de justicia penal y los
+        tribunales civiles.
+
+        Implica la evaluación de factores psicológicos que pudieran influir en un caso o comportamiento y la
+        presentación de los hallazgos ante una corte.</h4>
+
+      <h2>Psicología de la salud
+
+        <h4> La psicología de la salud también se denomina medicina conductual o psicología médica.
+
+          <H3> Observa cómo el comportamiento, la biología y el contexto social influyen en
+            la enfermedad y la salud.</H3>
+
+          <h4>Un médico suele analizar primero las causas biológicas de una enfermedad, pero un psicólogo de la salud se
+            centrará en la persona en su totalidad y en lo que influye en su estado de salud. Esto puede incluir su
+            estado socioeconómico, educación, antecedentes, así como comportamientos que pueden tener un impacto en la
+            enfermedad, como el poder seguir instrucciones y una medicación.
+
+            Los psicólogos de la salud generalmente trabajan junto con otros profesionales médicos
+            en entornos clínicos.</h4>
+
+          <h2>Neuropsicología</h2>
+
+          <h4> La neuropsicología analiza la estructura y la función del cerebro en relación con los comportamientos y
+            los
+            procesos psicológicos. La neuropsicología puede intervenir si una afección involucra lesiones en el cerebro,
+            así como hacer evaluaciones que implican registrar la actividad eléctrica en el cerebro.
+
+            Se utiliza una evaluación neuropsicológica para determinar si una persona puede experimentar problemas de
+            comportamiento después de una lesión cerebral diagnosticada o que se sospeche, como un derrame cerebral.
+
+            Los resultados pueden permitirle a un médico brindar un tratamiento que pueda ayudar al individuo a lograr
+            posibles mejoras en el daño cognitivo que ha tenido.</h4>
+
+          <img src="imagenes/sentados" width="200" height="200">
+          <h2>Psicología ocupacional
+
+            <h4> Los psicólogos ocupacionales u organizacionales trabajan en la evaluación y la formulación de
+              recomendaciones sobre el desempeño de las personas en el trabajo y en la capacitación.
+
+              Ayudan a las empresas a encontrar formas más efectivas de funcionar y a comprender cómo se comportan las
+              personas y los grupos en el trabajo.
+
+              Esta información puede ayudar a mejorar la efectividad, la eficiencia, la satisfacción laboral y la
+              retención de los empleados.</h4>
+
+            <img src="imagenes/tetera" width="200" height="200">
+            <h2> Psicología social</h2>
+
+            <h4>La psicología social utiliza métodos científicos para comprender cómo las influencias sociales
+              repercuten en
+              el comportamiento humano. Busca explicar cómo los sentimientos, el comportamiento y los pensamientos están
+              influenciados por la presencia real, imaginaria o implícita de otras personas.
+
+              Un psicólogo social analiza el comportamiento grupal, la percepción social, el comportamiento no verbal,
+              la
+              conformidad, la agresión, el prejuicio y el liderazgo. La percepción y la interacción social se consideran
+              claves para comprender el comportamiento social.
+
+              Otras ramas incluyen la psicología
+              militar, del consumidor, educativa, transcultural
+              y ambiental. El número de ramas sigue en aumento.</h4>
+        </H4>
+        </p>
+
+
+  </section>
+  <section id="servicios">
+    <h2>AYUDA ,TECNICAS , ¿QUE HACER?</h2>
+    <p>
+    <h2>El bienestar mental es crucial para una vida plena. En esta sección, abordaremos temas como:</h2>
+    <h2>mindfulness</h2>
+    <h4> práctica de mindfulness, o atención plena, ha demostrado ser una herramienta poderosa para reducir la ansiedad.
+      Consiste en prestar atención deliberada al momento presente, sin juzgar los pensamientos o emociones que surjan.
+      La meditación mindfulness, la respiración consciente y la observación de los sentidos son algunas formas de
+      incorporar el mindfulness en tu vida diaria.
+      <img src="imagenes/ANSIEAD.jpg" width="400" height="400">
+    </h4>
+    <H2>Tecnicas de relajacion</H2>
+    <h4> La respiración profunda y consciente puede ser una herramienta efectiva para calmar la mente y el cuerpo en
+      momentos de ansiedad. Prueba la técnica de respiración 4-7-8: inhala profundamente por la nariz durante 4
+      segundos, retén la respiración durante 7 segundos y exhala lentamente por la boca durante 8 segundos. Repite este
+      ciclo varias veces hasta sentirte más relajado
+      <img src="imagenes/ULT.jpg" width="400" height="400">
+    </h4>
+    <h2>ayuda profesional</h2>
+    <h4>Si la ansiedad está interfiriendo significativamente en tu vida diaria, considera buscar ayuda profesional. Los
+      terapeutas especializados en el tratamiento de la ansiedad pueden enseñarte técnicas de afrontamiento adicionales
+      y
+      proporcionarte un espacio seguro para explorar tus preocupaciones y miedos. En algunos casos, puede ser
+      recomendable
+      consultar a un médico para evaluar la necesidad de tratamiento con medicamentos
+    </h4>
+   
+
+
+    </p>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2> A DONDE PUEDES ACUDIR?
+    La población podrá acceder a los servicios las 24 horas del día, los siete días de la semana, de forma gratuita
+    haciendo una llamada a la Linea 018000934540., las personas serán atendidas por un equipo de profesionales en
+    psicología que los orientarán de manera adecuada
+     Y SALUD MENTAL:3176578911
+    LINEA POLICIA NACIONAL COLOMBIA:123
+    PSICOLOGOS EN LINEA:3117583049</H2>
+
+    <p>Para más información,LLAMA A : 3209876252 </p>
+  </section>
+</body>
+
+</html>
